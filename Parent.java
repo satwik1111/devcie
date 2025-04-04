@@ -14,12 +14,13 @@ class Child extends Parent {
     }
     void showChildname() {
         System.out.println("name of Child: " + name);
+        System.out.println("name is:"+name)
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        Child child = new Child("john);
+        Child child = new Child("john");
         child.showname(); 
         child.showChildname();
     }
